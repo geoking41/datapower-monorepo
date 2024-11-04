@@ -1,0 +1,14 @@
+site_name: Datapower
+
+nav:
+  - Introduction: 'index.md'
+  - Domains:
+      - Policy:
+        - Home: '!include .\\domains\\policy\\mkdocs.yml'
+        - Components: '*include .\\domains\\policy\\*\\mkdocs.yml'
+      - Rating:
+        - Home: '!include .\\domains\\rating\\mkdocs.yml'
+        - Components: '*include .\\domains\\rating\\*\\mkdocs.yml'
+
+plugins:
+  - monorepo
