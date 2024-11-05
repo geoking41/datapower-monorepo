@@ -3,7 +3,6 @@ This contains the domain specific codebase with separate folder for each of the 
 
 #### Multi Protocol Gateways
 
-[mpg001]('/Datapower/Domains/Policy/mpg001')
+[mpg001]('policy-mpg001/0000.Introduction.md')
 
-[mpg002]('/Datapower/Domains/Policy/mpg002')
-
+[mpg002]('policy-mpg002/0000.Introduction.md')

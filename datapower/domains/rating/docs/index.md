@@ -3,7 +3,8 @@ This contains the domain specific codebase with separate folder for each of the 
 
 #### Multi Protocol Gateways
 
-[mpg001]('/Datapower/Domains/Rating/mpg001')
+[mpg001]('rating-mpg001/0000.Introduction.md')
 
-[mpg002]('/Datapower/Domains/Rating/mpg002')
+[mpg002]('rating-mpg002/0000.Introduction.md')
+
 
