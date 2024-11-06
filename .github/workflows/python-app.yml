@@ -11,18 +11,16 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    uses: ./.github/workflows/reusable-steps.yml
     steps:
-    - uses: ./.github/workflows/reusable-steps.yml
     - name: Build MkDocs
       run: |
         mkdocs -v build -f ./datapower/mkdocs.yml
 
   deploy:
-    runs-on: ubuntu-latest
     needs: build
+    uses: ./.github/workflows/reusable-steps.yml
     steps:
-    - uses: ./.github/workflows/reusable-steps.yml
     - name: Deploy MkDocs site to GH pages
       run: |
         mkdocs -v gh-deploy -f ./datapower/mkdocs.yml
