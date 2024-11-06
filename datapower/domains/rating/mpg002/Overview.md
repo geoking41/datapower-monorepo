@@ -5,7 +5,7 @@ TODO: Define a structure
 
 #### Rules
 
-[rule201]('../src/main/java/com/kbmdev/gateway/rule/rule201.java')
+[rule201]('./src/main/java/com/kbmdev/gateway/rule/rule201.java')
 
 
 
